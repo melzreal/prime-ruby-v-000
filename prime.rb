@@ -9,7 +9,8 @@ def prime?(int)
     end 
     
   end 
-  if array_of_ints.length == 2 
+  
+  if array_of_ints.length <= 2 
     return true 
   else 
     return false 
