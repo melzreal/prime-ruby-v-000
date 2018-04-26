@@ -1,6 +1,8 @@
 def prime?(int)
-  collection = (1...100)
+  collection = [1..100]
+  array_of_ints = []  
   
-    if int % collection 
+  collection.each do |nr|
+     array_of_ints.push(int % nr)  
     
 end
