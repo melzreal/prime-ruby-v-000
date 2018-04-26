@@ -1,5 +1,5 @@
 def prime?(int)
-  collection =(1..100).to_a
+  collection =(1..1000000).to_a
   array_of_ints = []  
   
   collection.each do |nr|
