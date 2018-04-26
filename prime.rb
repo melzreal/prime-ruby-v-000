@@ -3,7 +3,10 @@ def prime?(int)
   array_of_ints = []  
   
   collection.each do |nr|
-    if int % nr
-     array_of_ints.push()  
+    if int % nr != 0
+     array_of_ints.push(int % nr)  
+    end 
+  end 
+  return array_of_ints
     
 end
