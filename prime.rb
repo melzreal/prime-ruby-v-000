@@ -11,11 +11,11 @@ def prime?(int)
   end 
   
   if array_of_ints.length == 2 
-    puts array_of_ints 
+   
     return true 
     
   else 
-    puts array_of_ints 
+   
     return false 
   end 
     
