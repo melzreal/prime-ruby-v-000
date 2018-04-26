@@ -9,10 +9,10 @@ def prime?(int)
     end 
     
   end 
-  if array_of_ints.length > 2 
-    return false 
-  else 
+  if array_of_ints.length == 2 
     return true 
+  else 
+    return false 
   end 
     
 end
